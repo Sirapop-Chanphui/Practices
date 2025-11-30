@@ -1,0 +1,324 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #f6f6fb;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding: 24px;
+}
+
+.nav-main-page {
+  min-width: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-radius: 99px;
+  padding: 12px 80px 12px 80px;
+}
+
+.acme-logo {
+  cursor: pointer;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  transition: color 0.2s;
+  display: block;
+  padding: 16px 24px 16px 24px;
+}
+
+.nav-link:hover {
+  color: #5e44ff;
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: 500;
+  transition: color 0.2s;
+  display: block;
+  padding: 16px 24px 16px 24px;
+}
+
+/*hero section<-------------------------------------------------------------------------------> hero section*/
+.contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 120px 140px 120px;
+  gap: 120px;
+}
+
+.hero-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.hero-tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #563aff1a;
+  border-radius: 999px;
+  color: #5e44ff;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 8px 20px 8px 20px;
+  text-decoration: none;
+}
+
+.hero-title-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.hero-title {
+  text-align: center;
+  font-size: 80px;
+  font-weight: 800;
+  color: #1a1a2c;
+}
+
+.hero-title2 {
+  text-align: center;
+  font-size: 80px;
+  font-weight: 800;
+  color: rgb(94, 68, 255);
+  font-style: normal;
+}
+
+.hero-description {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1a1a2c;
+}
+
+.hero-button {
+  color: white;
+  background-color: #1a1a2c;
+  padding: 16px 36px 16px 36px;
+  border-radius: 16px;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #5f5f76;
+  cursor: pointer;
+}
+
+button:focus {
+  background-color: #35354d;
+  outline: 4px solid #5f5f76;
+}
+/*feature section<-------------------------------------------------------------------------------> feature section*/
+
+.features {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  max-width: 1200px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  padding: 28px;
+  gap: 40px;
+  border-radius: 24px;
+  flex: 1 1 0%;
+}
+
+.box-1 {
+  background-color: #d7e5f6;
+}
+
+.box-2 {
+  background-color: #d8e0fc;
+}
+
+.box-3 {
+  background-color: #e8dcf6;
+}
+
+.feature-icon {
+  width: 60px;
+  height: 60px;
+  background-color: #ffffff99;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature-text {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.feature-title {
+  color: #1a1a2c;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.feature-description {
+  color: #5f5f76;
+  font-size: 16px;
+  font-weight: 500;
+}
+/*contract section<-------------------------------------------------------------------------------> contract section*/
+
+.contract-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 120px 80px 120px;
+  gap: 80px;
+}
+
+.contract-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 120px 80px 120px;
+  padding: 80px 120px 80px 120px;
+  gap: 40px;
+  background-color: #ffffffb2;
+  border-radius: 24px;
+  width: 100%;
+  min-width: 620px;
+  max-width: 1200px;
+}
+
+.contract-title {
+  color: #1a1a2c;
+  font-size: 44px;
+  font-weight: 700;
+  letter-spacing: -2%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.contact-input-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.contact-input-set {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 589px;
+  position: relative;
+}
+
+label {
+  color: #5f5f76;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+input {
+  background-color: #ffffff;
+  border: 1px solid #e0e0ed;
+  padding: 12px 12px 12px 16px;
+  border-radius: 12px;
+  color: #9393ac;
+}
+
+input::placeholder {
+  color: #9393ac;
+}
+
+textarea {
+  background-color: #ffffff;
+  color: #9393ac;
+  border: 1px solid #e0e0ed;
+  padding: 12px 2px 2px 16px;
+  border-radius: 12px;
+  height: 102px;
+}
+
+.contract-button {
+  padding: 16px 36px 16px 36px;
+  background-color: #1a1a2c;
+  color: #ffffff;
+  border-radius: 16px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.footer-area {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 120px 80px 120px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-text {
+  color: #5f5f76;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  gap: 37px;
+  list-style: none;
+}
+
+.footer-link {
+  display: flex;
+  flex-direction: row;
+  gap: 37px;
+  text-decoration: none;
+  color: #1a1a2c;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+
+textarea::-webkit-resizer {
+    background: url("/assets/Drag.svg") no-repeat center;
+    background-size: 16px 16px;
+  }
+
